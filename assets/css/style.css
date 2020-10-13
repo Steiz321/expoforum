@@ -1,0 +1,432 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* Intro */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    min-height: 710px;
+    position: relative;
+    background: url("../images/bg.jpg")center no-repeat;
+    background-size: cover;
+}
+
+.intro__title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.intro__main {
+    width: 100%;
+    display: flex;
+    left: 0;
+}
+
+.intro__left {
+    width: 50%;
+    min-width: 600px;
+    text-align: left;
+}
+
+.intro__blocktitle {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.intro__link {
+    text-decoration: none;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.intro__link:hover {
+    text-decoration: underline;
+}
+
+
+/* Header */
+.header {
+    padding-top: 35px;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #fff;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 175px;
+    height: 24px;
+}
+
+/* Nav */
+.nav {
+    font-size: 16px;
+}
+
+.nav__link {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: 400;
+    transition: color 0.1s linear;
+}
+
+.nav__link:hover {
+    color: #000;
+}
+
+
+/* Boxes */
+.box1  {
+    margin-right: 30px;
+    max-width: 255px;
+    max-height: 150px;
+}
+
+.box2 {
+    max-width: 255px;
+    max-height: 150px;
+}
+
+.blue {
+    padding: 30px;
+    background-color: #2378FC;
+    margin-bottom: 30px;
+}
+
+.yellow {
+    padding: 30px;
+    background-color: #FFC41E;
+}
+
+.lightblue {
+    padding: 30px;
+    background-color: #30BCC9;
+    margin-bottom: 30px;
+}
+
+.red {
+    padding: 30px;
+    background-color: #F6404F;
+}
+
+.box__title {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.box__link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.box__link:hover {
+    color: #2E373B;
+}
+
+/* Info */
+.info {
+    background-color: #2378FC;
+    height: 100%;
+    width: 100%;
+    min-height: 276px;
+}
+
+.info__item {
+    display: inline-block;
+    width: 24%;
+    height: 100%;
+    margin-top:75px;
+    margin-bottom: 75px;
+}
+
+.info__title {
+    font-weight: 500;
+    color: #fff;
+    font-size: 30px;
+    line-height: 130%;
+    margin-bottom: 15px;
+}
+
+.info__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.info__link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 200;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.info__link:hover {
+    color: #FFC41E;
+    text-decoration-line: underline;
+}
+
+
+/* Events */
+
+.events {
+    background-color: #FFC41E;
+    height: 100%;
+    width: 100%;
+    min-height: 980px;
+}
+
+.events__header {
+    max-height: 170px;
+    margin-bottom: 55px;
+    align-items: flex-end;
+    padding-top: 75px;
+    color: #2E373B;
+    display: flex;
+    justify-content: space-between;
+}
+
+.events__title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.events__link {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500;
+    color: #2E373B;
+}
+
+.events__link:hover{
+    text-decoration: underline;
+}
+
+.events__block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.events__item {
+    width: 30%;
+    padding-bottom: 15px;
+}
+
+.event__date {
+    color: #2E373B;
+    font-size: 14px;
+}
+
+.event__title {
+    color: #F6404F;
+    font-size: 21px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.event__title:hover {
+    text-decoration: underline;
+}
+
+.event__text {
+    color: #2E373B;
+    font-size: 16px;
+}
+
+
+/* News */
+.news {
+    background-color: #FAF3E3;
+    height: 100%;
+    width: 100%;
+    min-height: 650px;
+    padding-top: 95px;
+}
+
+.news__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news__left {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 50%;
+}
+
+.news__img {
+    margin-bottom: 60px;
+}
+
+.news__right {
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 50%;
+}
+
+.news__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.news__headtitle {
+    font-weight: 500;
+    font-size: 30px;
+    color: #2E373B;   
+}
+
+.news__headlink {
+    font-weight: 500;
+    font-size: 19px;
+    color: #2E373B;
+    text-decoration: none;
+}
+
+.news__headlink:hover {
+    text-decoration: underline;
+}
+
+.news__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+
+.news_item__texts {
+    margin-left: 30px;
+}
+
+.news__date {
+    color: #F6404F;
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+.news__text {
+    font-weight: 500;
+    font-size: 21px;
+    color: #2E373B;
+    text-decoration: none;
+}
+
+.news__text:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #30BCC9;
+    width: 100%;
+    height: 100%;
+    min-height: 480px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer__item {
+    margin-bottom: 40px;
+}
+
+.footer__icons {
+    color: #E0E0E0;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.icon__item {
+    color: #E0E0E0;
+    margin-right: 15px;
+}
+
+.footer__block {
+
+}
+
+.footer__text {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    color: #E0E0E0;
+}
+
+.footer__input {
+    color: #9C9C9C;
+    width: 215px;
+    height: 40px;
+}
+
+.footer__btn {
+    height: 40px;
+}
+
+
+/* subscribe */
+.subscribe {
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    display: flex;
+}
+
+.subscribe__input {
+    width: 215px;
+    padding: 15px;
+    background: #fff;
+    color: #9C9C9C;
+    border: none;
+    font-size: 12px;
+}
+
+.subscribe__btn {
+    padding: 12px;
+    width: 40px;
+    background: #F6404F;
+    color: #fff;
+    font-size: 17px;
+    border: 0;
+    cursor: pointer;
+}
+
+
