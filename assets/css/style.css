@@ -45,6 +45,7 @@ body {
 
 .intro__blocktitle {
     color: #fff;
+    margin-bottom: 15px;
     font-size: 26px;
     font-weight: 400;
 }
